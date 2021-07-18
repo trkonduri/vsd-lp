@@ -31,11 +31,11 @@
 sudo port install magic
  
 # Once skywater pdk is installed, install open_pdks from Timothy Edwards github repo
-git clone https://github.com/RTimothyEdwards/open_pdks
-cd open_pdks
-./configure --enable-sky130-pdk=~/workspaces/pdk/skywater-pdk/libraries --with-sky130-local-path=~/workspaces/pdks
-make -j4
-make install
+1. git clone https://github.com/RTimothyEdwards/open_pdks
+1. cd open_pdks
+1. ./configure --enable-sky130-pdk=~/workspaces/pdk/skywater-pdk/libraries --with-sky130-local-path=~/workspaces/pdks
+1. make -j4
+1. make install
 
 5G has multiple converge points.
 IOT
